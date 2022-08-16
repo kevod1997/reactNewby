@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+
+import keduro from '../src/keduro.JPG'
 import './App.css';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
+    <ChakraProvider>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className='kevo' src={keduro}></img>
+      <h1>Hola Miguel!</h1>
+      <p>Me comere a suertudo</p>
     </div>
+    </ChakraProvider>
   );
 }
 

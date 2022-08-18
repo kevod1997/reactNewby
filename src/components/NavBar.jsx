@@ -13,6 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Icon from "./Icon"
+import keduro from "./keduro.JPG"
 
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -56,7 +57,7 @@ export default function NavBar () {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <img className='kevo' src={keduro}></img>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

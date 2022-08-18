@@ -1,5 +1,4 @@
 
-import keduro from '../src/keduro.JPG'
 import './App.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import NavBar from './components/NavBar';
@@ -42,7 +41,6 @@ let x = "Sos un maestro";
     <div style={{color: 'black'}}>
       <div>
         <NavBar />
-      <img className='kevo' src={keduro}></img>
       <h1>Hola Miguel! {x} </h1>
       <p>Me comere a suertudo</p>
       </div>

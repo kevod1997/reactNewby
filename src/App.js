@@ -61,18 +61,24 @@ function App() {
           item={producto1}
           color={"blue"}
           alertHolaMundo={alertHolaMundo}
+          text="hola kevin"
         />
         <Producto
           item={producto2}
           color={"coral"}
           alertHolaMundo={alertHolaMundo}
+          text="hola clara"
         />
         <Producto
           item={producto3}
           color={"grey"}
           alertHolaMundo={alertHolaMundo}
+          text="hola rako"
         />
-
+        <form onSubmit={(e) => {
+          e.preventDefault()
+          alert("se envio la info")
+        }} ><button>Send</button></form>
         <Propiedades
           cadena="Esto es una cadena de texto"
           numero={14}
